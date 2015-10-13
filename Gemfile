@@ -16,6 +16,7 @@ group :development, :test do
   gem 'byebug'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
+  gem 'guard'
   gem 'guard-minitest'
 end
 
