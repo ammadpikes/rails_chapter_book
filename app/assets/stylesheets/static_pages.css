@@ -1,45 +1,168 @@
 body{
-
-  background: #fff;
-  margin: 0px;
-  padding: 0px;
+  background: white;
+  padding-top: 70px;
 }
 
 
-#main_heading{
-  background: #607D8B;
-  padding: 20px 0px 20px 0px;
-  box-shadow: 1px 3px 3px #b6b6b6;
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
 }
 
-#heading{
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
   text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  color: #FFFFFF;
-
-
 }
 
-.list{
+h2 {
+  font-size: 1.2em;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
   text-align: center;
-  padding: 0px;
+  font-weight: normal;
+  color: #777;
 }
 
-.list_item{
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
 
+
+/* Navbar Styling */
+
+
+.navbar-inner{
+
+  background-color: #ED4545;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.navbar .nav > li > a{
+
+  color: white;
+}
+
+.navbar .nav > li > a:hover {
+  color: black;
+  background-color: white;
+}
+
+
+.logo {
+  margin-left: 15px;
+  margin-top: 4px;
+  width: 42px;
+  height: 42x;
+}
+
+
+/* Main Content Area Styling */
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.sign_up{
+  margin-top:10px;
+}
+
+
+/* Sign Up Button Styling */
+
+
+.btn {
+    border: 0 none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #ED4545;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #932A2A;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #932A2A;
+    box-shadow: none;
+
+}
+
+.logo_bottom{
+
+  width: 70px;
+  height: 75px;
+
+}
+
+
+/* Footer Styles */
+
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+  padding-left: 70px;
+}
+
+footer ul {
+  float: right;
   list-style: none;
-  display: inline-block;
-  padding: 5px 5px 5px 5px;
-  font-size: 18px;
+  padding-right: 70px;
 }
 
-ul > li > a, ul > li > a:visited {
-  text-decoration: none;
-  color: blue;
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
 
-p{
 
-  padding: 15px 30px 15px 30px;
+
+  /* Small Devices, Tablets */
+
+@media only screen and (min-width : 480px) {
+
+
+
 }
+

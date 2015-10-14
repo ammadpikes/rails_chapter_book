@@ -1,12 +1,14 @@
 <% provide(:title, "Home") %>
 
-  <%= render partial: "header" %>
-
-  <h2 style ="padding-left: 30px;">Home</h2>
-  <p>
+<div class="center jumbotron">
+  <h1>Welcome to Ruby on Rails</h1>
+  <h2>
     This is the home page for the
     <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
     sample application.
-  </p>
-
+  </h2>
+  <%= link_to "Sign up now!", user_new_path, class: "sign_up btn btn-lg btn-primary" %>
 </div>
+<%= link_to image_tag("rails-image.png", alt: "Rails logo", class: "logo_bottom"),
+            'http://rubyonrails.org/' %>
+
