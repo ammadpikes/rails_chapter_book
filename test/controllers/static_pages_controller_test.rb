@@ -17,13 +17,10 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "Help | #{@title_partial}"
   end
-
-
+  
   test "should get about" do
     get :about
     assert_response :success
     assert_select "title", "About | #{@title_partial}"
   end
-
-
 end
