@@ -233,9 +233,9 @@ input {
 }
 
 label {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: normal;
-  letter-spacing: 0;
+  letter-spacing: -1;
   text-transform: uppercase;
 }
 
@@ -254,4 +254,18 @@ label {
 
 .field_with_errors, .has-error, form-control {
     color: red;
+}
+
+
+/* forms */
+
+
+.checkbox {
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
