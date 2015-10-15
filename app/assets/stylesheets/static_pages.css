@@ -1,45 +1,41 @@
 body{
-
-  background: #fff;
-  margin: 0px;
-  padding: 0px;
+  background: white;
+  padding-top: 70px;
 }
 
 
-#main_heading{
-  background: #607D8B;
-  padding: 20px 0px 20px 0px;
-  box-shadow: 1px 3px 3px #b6b6b6;
+.navbar-inner{
+
+  background-color: #F64747;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: none;
 }
 
-#heading{
-  text-align: center;
-  font-size: 36px;
-  font-weight: bold;
-  color: #FFFFFF;
+.navbar .nav > li > a{
+
+  color: white;
+}
+
+.navbar .nav > li > a:hover {
+  color: black;
+  background-color: white;
+}
+
+
+.logo {
+  margin-left: 15px;
+  margin-top: 4px;
+  width: 42px;
+  height: 42x;
+}
+
+
+  /* Small Devices, Tablets */
+
+@media only screen and (min-width : 480px) {
+
 
 
 }
 
-.list{
-  text-align: center;
-  padding: 0px;
-}
-
-.list_item{
-
-  list-style: none;
-  display: inline-block;
-  padding: 5px 5px 5px 5px;
-  font-size: 18px;
-}
-
-ul > li > a, ul > li > a:visited {
-  text-decoration: none;
-  color: blue;
-}
-
-p{
-
-  padding: 15px 30px 15px 30px;
-}
