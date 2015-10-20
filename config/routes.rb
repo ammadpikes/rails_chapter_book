@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   post   'login'   => 'sessions#create'
   delete 'logout'  => 'sessions#destroy'
 
+
   resources :users
+  resources :password_reset, only: [:new, :edit, :create]
 
 end

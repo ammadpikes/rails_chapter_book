@@ -38,4 +38,10 @@ class User < ActiveRecord::Base
     update_attribute(:remember_digest, nil)
   end
 
+  def generate_reset_token
+    self.password_reset_token = User.new_token
+    update_attribute(:password_reset_token, User.digest(password_reset_token))
+  end
+
+
 end
