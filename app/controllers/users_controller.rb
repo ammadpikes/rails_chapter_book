@@ -67,7 +67,6 @@ class UsersController < ApplicationController
     # Confirms the correct user.
     def correct_user
       @user = User.find(params[:id])
-      admin_user
     end
 
     #returns admin

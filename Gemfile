@@ -22,6 +22,7 @@ group :development, :test do
   gem 'mini_backtrace'
   gem 'guard'
   gem 'guard-minitest'
+  gem "letter_opener"
 end
 
 group :development do
